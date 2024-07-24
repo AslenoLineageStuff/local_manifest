@@ -6,6 +6,7 @@
 <project path="device/asus/sdm660-common" name="aslenofarid/device_asus_sdm660-common" remote="github" revision="lineage-17.1"/>
 <project path="vendor/asus" name="aslenofarid/proprietary_vendor_asus" remote="github" revision="lineage-17.1"/>
 <project path="kernel/asus/sdm660" name="AslenoLineageStuff" remote="github" revision="kernel.lnx.4.4.r42-rel"/>
+<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
 <!-- remove project -->
 <remove-project name="LineageOS/android_build"/>
