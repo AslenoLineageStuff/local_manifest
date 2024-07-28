@@ -2,13 +2,13 @@
 <manifest>
 
 <remote name="aslenofarid"
-  fetch="https://github.com/aslenofarid" />
+        fetch="https://github.com/aslenofarid" />
   
 <remote name="AslenoLineageStuff"
-  fetch="https://github.com/AslenoLineageStuff" />
+        fetch="https://github.com/AslenoLineageStuff" />
   
 <remote name="kdrag0n"
-  fetch="https://github.com/kdrag0n" />
+        fetch="https://github.com/kdrag0n" />
   
 <!-- tree -->
 <project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="lineage-17.1"/>
@@ -39,4 +39,6 @@
 <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="AslenoLineageStuff" revision="lineage-17.1"/>
 <project path="system/core" name="android_system_core" remote="AslenoLineageStuff" revision="lineage-17.1"/>
 <project path="vendor/lineage" name="android_vendor_lineage" remote="AslenoLineageStuff" revision="lineage-17.1"/>
+<project path="vendor/lineage-priv/keys" name="keymoment" remote="aslenofarid" revision="lineage-17.1"/>
+
 </manifest>
