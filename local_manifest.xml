@@ -34,7 +34,7 @@
         <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
         <linkfile src="target" dest="build/target"/>
         <linkfile src="tools" dest="build/tools"/>
-</project>
+        </project>
 
         <project path="frameworks/base" name="android_frameworks_base" remote="AslenoLineageStuff" revision="lineage-17.1"/>
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="AslenoLineageStuff" revision="lineage-17.1-caf-msm8998"/>
