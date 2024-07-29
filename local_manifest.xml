@@ -8,7 +8,7 @@
                 fetch="https://github.com/AslenoLineageStuff"/>
 
         <remote name="kdrag0n"
-                fetch="https://github.com/kdrag0n" />
+                fetch="https://github.com/kdrag0n"/>
 
         <!-- tree -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="lineage-17.1"/>
