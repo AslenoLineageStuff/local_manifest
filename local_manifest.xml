@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
 
-<remote name="aslenofarid"
+        <remote name="aslenofarid"
         fetch="https://github.com/aslenofarid" />
   
-<remote name="AslenoLineageStuff"
+        <remote name="AslenoLineageStuff"
         fetch="https://github.com/AslenoLineageStuff" />
   
-<remote name="kdrag0n"
+        <remote name="kdrag0n"
         fetch="https://github.com/kdrag0n" />
   
         <!-- tree -->
