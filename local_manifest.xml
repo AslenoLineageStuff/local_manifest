@@ -2,13 +2,13 @@
 <manifest>
 
         <remote name="aslenofarid"
-                fetch="https://github.com/aslenofarid"/>
+                fetch="https://github.com/aslenofarid/"/>
         
         <remote name="AslenoLineageStuff"
-                fetch="https://github.com/AslenoLineageStuff"/>
+                fetch="https://github.com/AslenoLineageStuff/"/>
 
         <remote name="kdrag0n"
-                fetch="https://github.com/kdrag0n"
+                fetch="https://github.com/kdrag0n/"
                 clone-depth="1"/>
 
         <!-- tree -->
