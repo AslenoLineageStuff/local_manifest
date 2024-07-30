@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+        <remote name="aslenofarid"
+                fetch="https://github.com/aslenofarid"/>
+        
         <remote name="AslenoLineageStuff"
                 fetch="https://github.com/AslenoLineageStuff"/>
 
         <remote name="kdrag0n"
-                fetch="https://github.com/kdrag0n"/>
+                fetch="https://github.com/kdrag0n"
+                clone-depth="1"/>
+
+        <!-- tree -->
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="lineage-17.1"/>
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="lineage-17.1"/>
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="lineage-17.1"/>
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="aslenofarid" revision="lineage-17.1"/>
 
         <!-- remove project -->
         <remove-project name="LineageOS/android_build"/>
@@ -31,6 +41,5 @@
         <project path="system/core" name="android_system_core" remote="AslenoLineageStuff" revision="lineage-17.1"/>
         <project path="vendor/lineage" name="android_vendor_lineage" remote="AslenoLineageStuff" revision="lineage-17.1"/>
         <project path="vendor/lineage-priv/keys" name="keymoment" remote="aslenofarid" revision="lineage-17.1"/>
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1"/>
-        
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/>
 </manifest>
