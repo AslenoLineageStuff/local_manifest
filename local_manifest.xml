@@ -4,10 +4,13 @@
         <remote name="aslenofarid"
                 fetch="https://github.com/aslenofarid" />
 
+        <remote name="AslenoLineageStuff"
+                fetch="https://github.com/AslenoLineageStuff" />
+
         <!-- tree -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="lineage-17.1" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="lineage-17.1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="lineage-17.1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="aslenofarid" revision="lineage-17.1" />
+        <project path="kernel/asus/sdm660" name="msm-4.4" remote="AslenoLineageStuff" revision="kernel.lnx.4.4.r42-rel" />
 
 </manifest>
